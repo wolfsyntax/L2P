@@ -39,6 +39,7 @@ p.head-arial
 input > button
 {
 	opacity: 0.5;
+	background: black;
 }
 footer
 {
