@@ -6,6 +6,10 @@ body
 a, a.link{
   text-decoration: none;
 }
+a.footer
+{
+  font-color: white;
+}
 div.content
 {
   background: grey;
