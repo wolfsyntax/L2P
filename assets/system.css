@@ -1,14 +1,11 @@
 body
 {
-  background: black;
+  background: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSWu-Ao51Fcnb6jBPKEFjYN9hpoZrEWSSDF_oiRLBnPPQjPCT_mKw) no-repeat center center fixed;
+  background-size: cover;
   
 }
 a, a:link{
   text-decoration: none;
-  color: white;
-}
-a.footer
-{
   color: white;
 }
 div.content
