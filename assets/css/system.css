@@ -10,6 +10,10 @@ ul.nav-order
     	overflow: hidden;
 	background: black;
 	opacity: 0.25;
+	
+	position:fixed;
+	left:0px;
+	bottom:25px;
 }
 li.nav-list
 {
@@ -17,9 +21,19 @@ li.nav-list
 }
 li a.nav-link
 {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+    	display: block;
+    	color: white;
+    	text-align: center;
+    	padding: 14px 16px;
+    	text-decoration: none;
+}
+.footer
+{
+	position:fixed;
+	left:0px;
+	bottom:25px;
+	height:30px;
+	width:100%;
+	font-style: bold;	
+	text-align: center;
 }
