@@ -38,7 +38,7 @@ marquee.white
 }
 div.content
 {
-  background: grey;
+  /*background: grey;*/
   font-family: arial;
   font-size: 12pt;
  /* opacity: 0.5; */
