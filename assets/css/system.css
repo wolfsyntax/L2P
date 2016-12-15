@@ -1,41 +1,17 @@
-.context
+body.github
 {
-  color: white;
-  font-family: calibri;
-  font-size: 10pt;
-}
-button.transparent
-{
-  display: inline-block;
-  width: 200px;
-  padding: 8px;
-  color: black;
-  background-color: white;
-  border: 1px solid black;
-  opacity: 0.5;
-  outline: none;
-  text-align: center;
-  font-family: helvetica;
-  text-decoration: none;
 
 }
-body
-{
-  background: url(http://wallpapercave.com/wp/xV6zQ3f.jpg) no-repeat center center fixed;
-  background-size: cover;
-  
-}
-
 ul.nav-order
 {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+	list-style-type: none;
+    	margin: 0;
+    	padding: 0;
+    	overflow: hidden;
 }
 li.nav-list
 {
-    float: left;
+	float: left;
 }
 li a.nav-link
 {
@@ -44,49 +20,4 @@ li a.nav-link
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-}
-a, a:link{
-    display: block;
-    width: 60px;
-}
-marquee.white
-{
-  color: white;
-  font-family: calibri;
-  font-size: 10pt;
-  margin-top: -10px;
-}
-div.content
-{
-  /*background: grey;*/
-  font-family: arial;
-  font-size: 12pt;
- /* opacity: 0.5; */
-}
-p.head-arial
-{
-  font-weight: bold;
-  font-size: 13pt;
-  font-family: arial;
-  
-  
-}
-input
-{
-	opacity: 0.5;
-	background: black;
-	color: white;
-	font-family: courier;
-	font-size: 7pt;
-}
-footer
-{
-  color: white;
-  position:fixed;
-	left:0px;
-	bottom:25px;
-	height:auto;
-	width:100%;
-	font-style: bold;	
-	text-align: center;
 }
