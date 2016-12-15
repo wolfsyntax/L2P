@@ -38,4 +38,10 @@ p.head-arial
 footer
 {
   color: white;
+  text-align: center;
+  position: absolute;
+  margin-bottom: 0px;
+  margin: auto;
+  width: 80%;
+  height: auto;
 }
