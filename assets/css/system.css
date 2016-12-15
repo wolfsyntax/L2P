@@ -25,13 +25,14 @@ body
   background-size: cover;
   
 }
-.nav-link
+ul
 {
-    	align-items: center;
+  	align-items: center;
 	list-style-type: none;
     	margin: 0;
     	padding: 0;
 }
+
 a, a:link{
   text-decoration: none;
   color: white;
