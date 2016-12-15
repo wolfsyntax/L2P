@@ -8,6 +8,12 @@ a, a:link{
   text-decoration: none;
   color: white;
 }
+marquee.white
+{
+  color: white;
+  font-family: calibri;
+  font-size: 10pt;
+}
 div.content
 {
   background: grey;
