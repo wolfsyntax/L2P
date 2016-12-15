@@ -36,6 +36,10 @@ p.head-arial
   
   
 }
+input > button
+{
+	opacity: 0.5;
+}
 footer
 {
   color: white;
