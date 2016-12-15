@@ -16,10 +16,10 @@ a, a:link{
 }
 marquee.white
 {
-  color: white;
+  color: blue;
   font-family: calibri;
   font-size: 10pt;
-  margin-top: 10px;
+  margin-top: -10px;
 }
 div.content
 {
