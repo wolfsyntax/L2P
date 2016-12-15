@@ -33,11 +33,11 @@ ul.nav-order
     padding: 0;
     overflow: hidden;
 }
-li
+li.nav-list
 {
     float: left;
 }
-li a
+li a.nav-link
 {
     display: block;
     color: white;
