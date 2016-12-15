@@ -25,6 +25,10 @@ body
   background-size: cover;
   
 }
+.nav-link
+{
+	list-style: none;
+}
 a, a:link{
   text-decoration: none;
   color: white;
