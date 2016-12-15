@@ -3,3 +3,19 @@ body
   background: black;
   
 }
+
+div.content
+{
+  background: grey;
+  font-family: arial;
+  font-size: 12pt;
+  
+}
+p.head-arial
+{
+  font-weight: bold;
+  font-size: 13pt;
+  font-family: arial;
+  
+  
+}
