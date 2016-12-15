@@ -1,7 +1,7 @@
 body
 {
   background: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTdZjQuZZXJFcxanDh_XWd2J3zYcF-KddHBkhZtim59UtrL6tw7Iw) no-repeat center center fixed;
-  background-size: cover;
+  /**background-size: cover;**/
   
 }
 a, a:link{
