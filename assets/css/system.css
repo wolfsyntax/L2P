@@ -8,6 +8,8 @@ ul.nav-order
     	margin: 0;
     	padding: 0;
     	overflow: hidden;
+	background: black;
+	opacity: 0.25;
 }
 li.nav-list
 {
