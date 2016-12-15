@@ -12,10 +12,10 @@ button.transparent
   color: black;
   background-color: white;
   border: 1px solid black;
-  
+  opacity: 0.5;
+  outline: none;
   text-align: center;
-  /*outline: none;*/
-  opacity: 0.1;
+  font-family: helvetica;
   text-decoration: none;
 
 }
