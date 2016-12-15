@@ -13,7 +13,7 @@ ul.nav-order
 	
 	position:fixed;
 	left:0px;
-	bottom:25px;
+	top:25px;
 }
 li.nav-list
 {
