@@ -27,7 +27,10 @@ body
 }
 .nav-link
 {
-	list-style: none;
+    	align-items: center;
+	list-style-type: none;
+    	margin: 0;
+    	padding: 0;
 }
 a, a:link{
   text-decoration: none;
