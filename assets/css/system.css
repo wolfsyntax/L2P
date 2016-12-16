@@ -20,7 +20,7 @@ ul
 	margin: 0;
 	padding: 0;
     	overflow: hidden;
-	
+	height: auto;
 }
 li
 {
@@ -86,6 +86,7 @@ p.context
 	color: white;
 	margin-left: 0px;
 	font-weight: bold;
+	margin-top: 10px;
 }
 .fa
 {
