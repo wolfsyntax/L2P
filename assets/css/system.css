@@ -120,7 +120,7 @@ footer
 	padding: 0;
 	float: left;
 	display: inline block;
-	
+	background-color: black;
 }
 p.foot-note
 {
