@@ -20,7 +20,7 @@ ul
 	margin: 0;
 	padding: 0;
     	overflow: hidden;
-	height: auto;
+	height: 40px;
 }
 li
 {
@@ -33,11 +33,10 @@ li a
 	padding: 14px 16px; /*Space between menu*/
 }
 
-li a:hover, a:active
+li a:hover
 {
 	background-color: white;
-	color: black;
-	overflow: hidden;
+	color: black;	
 }
 .active
 {
