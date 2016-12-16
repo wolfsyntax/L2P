@@ -36,7 +36,6 @@ li a:hover, a:active
 {
 	background-color: white;
 	color: black;
-	overflow: hidden;
 }
 .active
 {
@@ -50,7 +49,7 @@ a:link,a:visited
 	text-decoration: none;
 	background-color: black;
 	color: white;
-	overflow: hidden;
+
 
 }
 div
