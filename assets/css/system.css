@@ -51,17 +51,26 @@ a:link,a:visited
 div.htag
 {	
 	background-color: black;
-	
+	border: 1px white;
 }
-div.news
+table.news
 {
-
-	margin-top: -48px;
+	background-color: black;
+	margin-top: 37px;
 	width: 100%;
 	color: white;
 	position: fixed;
-
-	
+	left: 0px;
+	height: 15px;
+	font-size: 11pt;
+}
+td.col-1
+{
+	width: 10%;
+}
+td.col-2
+{
+	width: 90%;
 }
 div.content
 {
@@ -103,10 +112,10 @@ p.context
 }
 marquee
 {
-	background-color: white;
-	color: black;
+	background-color: black;
+	color: white;
 	float: left;
-	margin-right: 1.5%;
+	width: auto;
 }
 footer
 {
