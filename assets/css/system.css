@@ -66,6 +66,12 @@ div.content
 	color: white;
 	
 }
+p.context
+{	
+	color: black;
+	font-family: helvetica;
+	font-size: 11pt;
+}
 .red
 {
 	/*background-color: red;*/
