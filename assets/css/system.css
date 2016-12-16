@@ -32,6 +32,20 @@ li a
 	display: block;	    /* Clickable */
 	padding: 14px 16px; /*Space between menu*/
 }
+.tooltip
+{
+	visibility: hidden;
+	width: 120px;
+	text-align: center;
+	padding: 5px 0;
+	border-radius: 6px;
+	position: absolute;
+	z-index: 1;
+}
+.tooltip:hover .tooltiptext
+{
+    	visibility: visible;	
+}
 
 li a:hover,a:active
 {
