@@ -56,11 +56,10 @@ div
 div.news
 {
 	
-	margin-top: -40px;
-	background: black;
+	margin-top: 0px;
 	width: 100%;
 	background-color: black;
-	
+	color: white;
 }
 div.content
 {
