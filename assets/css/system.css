@@ -86,7 +86,7 @@ p.context
 {
 	margin-top: 0px;
 	height: auto;
-
+	overflow: hidden;
 	
 }
 .black
