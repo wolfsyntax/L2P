@@ -55,9 +55,12 @@ div
 }
 div.news
 {
-	margin-top: -10px;
+	
+	margin-top: -40px;
 	background: black;
 	width: 100%;
+	background-color: black;
+	
 }
 div.content
 {
