@@ -1,7 +1,7 @@
 body
 {
+	background:url(https://github.com/wolfsyntax/L2P/blob/master/assets/image/IMG_362777.jpg?raw=true)no-repeat center center fixed;
 	
-	background-color: gray;
 	color: white;
 }
 nav
@@ -48,16 +48,20 @@ a:link,a:visited
 	overflow: hidden;
 
 }
-div
-{
+div.htag
+{	
+	background-color: black;
 	
 }
 div.news
 {
-	margin-top: -40px;
+
+	margin-top: -48px;
 	width: 100%;
-	background-color: gray;
 	color: white;
+	position: fixed;
+
+	
 }
 div.content
 {
@@ -75,11 +79,12 @@ p.context
 }
 .red
 {
-	background-color: gray;
+	background-color: black;
 	color: white;
-	margin-left: 0px;
+	margin-left: -10px;
 	font-weight: bold;
 	margin-top: 10px;
+	left: 0px;
 }
 .fa
 {
@@ -99,7 +104,7 @@ marquee
 {
 	background-color: white;
 	color: black;
-	width: 105%;
+	width: 100%;
 	margin-right: 1.5%;
 }
 footer
@@ -117,6 +122,7 @@ footer
 {
 	overflow: hidden;
 	margin-top: -5px;
+	left: 0px;
 	padding: 0;
 	float: left;
 	display: inline block;
