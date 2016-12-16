@@ -9,7 +9,7 @@ nav
 	position: fixed;
 	left:0px;
 	top:0%;
-	height:45px;
+	height:auto;
 	width:100%;
 	background-color: black;
 }
@@ -46,7 +46,7 @@ a:link,a:visited
 	background-color: black;
 	color: white;
 	overflow: hidden;
-	height: 100%;
+
 }
 div
 {
