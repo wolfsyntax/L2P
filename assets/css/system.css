@@ -4,7 +4,7 @@ body
 	
 	color: white;
 }
-nav
+nav.navh
 {	
 	position: fixed;
 	left:0px;
@@ -13,6 +13,21 @@ nav
 	width:100%;
 	background-color: black;
 }
+nav.navi /*Side Bar - margin top*/
+{	
+	position: fixed;
+	left:0px;
+	bottom: 0%;
+	top:3%;
+
+	margin-top: 2.5%;	
+	margin-bottom: 0px;
+	
+	height:300px;
+	width: 10%;
+	
+	background-color: red;
+}
 ul
 {
 /*	opacity: 0.8;	*/
@@ -20,9 +35,15 @@ ul
 	margin: 0;
 	padding: 0;
     	overflow: hidden;
-	
+	margin-top: auto;
 }
-li
+ul.side-ul
+{
+/*	opacity: 0.8;	*/
+	background-color: white;
+	margin-top: -10px;
+}
+li.hlist
 {
 	float: left;	/* Horizontal list*/
 	
@@ -32,28 +53,19 @@ li a
 	display: block;	    /* Clickable */
 	padding: 14px 16px; /*Space between menu*/
 }
-.tooltip
-{
-	visibility: hidden;
-	width: 120px;
-	text-align: center;
-	padding: 5px 0;
-	border-radius: 6px;
-	position: absolute;
-	z-index: 1;
-}
-.tooltip:hover .tooltiptext
-{
-    	visibility: visible;	
-}
 
-li a:hover,a:active
+li a.side-list:hover,a.side-list:active
+{
+	background-color: black;
+	color: white;	
+	overflow: hidden;
+}
+li a.hmlist:hover,a.hmlist:active
 {
 	background-color: white;
 	color: black;	
 }
-
-a:link,a:visited
+a.hmlist:link,a.hmlist:visited
 {
 
 	text-decoration: none;
@@ -62,6 +74,18 @@ a:link,a:visited
 	overflow: hidden;
 
 }
+
+a.side-list:link,a.side-list:visited
+{
+
+	text-decoration: none;
+	background-color: white;
+	color: black;
+	overflow: hidden;
+
+}
+
+
 div.htag
 {	
 	background-color: black;
@@ -69,10 +93,10 @@ div.htag
 }
 table.news
 {
-	background-color: black;
+	top: 0px;
+	
 	margin-top: 37px;
 	width: 100%;
-	color: white;
 	position: fixed;
 	left: 0px;
 	height: 15px;
@@ -80,11 +104,14 @@ table.news
 }
 td.col-1
 {
-	width: 10%;
+	width: 15%;
+	background-color: black;
 }
 td.col-2
 {
-	width: 90%;
+	width: 85%;
+	background-color: black;
+	color: black;
 }
 div.content
 {
@@ -110,6 +137,10 @@ p.context
 	left: 0px;
 
 }
+table
+{
+	background-color: black;
+}
 .fa
 {
 	margin-top: 0px;
@@ -124,9 +155,11 @@ p.context
 	
 	margin-right: -100px;
 }
+
 marquee
 {
 	background-color: black;
+	
 	color: white;
 	float: left;
 	width: auto;
@@ -141,7 +174,43 @@ footer
 	text-align: center;
 	background-color: black;
 }
+div.side-pane
+{
+	margin-top: -20%;
+	
+	
+	left: 0px;
 
+	position: fixed;
+
+	background-color: red;
+	color: black;
+	width: 10%;
+	
+
+
+	font-family: helvetica;
+	font-size: 10pt;
+	height: auto;
+
+}
+div.side-content /*Right side of content*/
+{
+	width: 88%;
+	margin-left: auto;
+	margin-top: 100px;
+}
+.mlist
+{
+	margin-top: 10px;
+	width: 1024px;
+}
+li.news
+{
+	margin-top: 10px;
+	left: 0px;
+	margin-left: 0px;
+}
 .news-update
 {
 	overflow: hidden;
@@ -152,6 +221,12 @@ footer
 	display: inline block;
 	background-color: gray;
 }
+.bg
+{
+	width: 80%;
+	
+}
+
 p.foot-note
 {
 	margin-top: 5px;
