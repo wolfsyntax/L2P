@@ -30,7 +30,6 @@ li a
 {
 	display: block;	    /* Clickable */
 	padding: 14px 16px; /*Space between menu*/
-	height: 45px;
 }
 
 li a:hover, a:active
@@ -38,14 +37,12 @@ li a:hover, a:active
 	background-color: white;
 	color: black;
 	overflow: hidden;
-	height: 45px;
 }
 .active
 {
 	background-color: white;
 	color: black;
 	overflow: hidden;
-	height: 45px;
 }
 a:link,a:visited
 {
@@ -54,7 +51,7 @@ a:link,a:visited
 	background-color: black;
 	color: white;
 	overflow: hidden;
-	height: 45px;
+
 }
 div
 {
