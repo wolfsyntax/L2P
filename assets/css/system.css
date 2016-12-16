@@ -58,7 +58,7 @@ div.news
 	
 	margin-top: 0px;
 	width: 100%;
-	background-color: black;
+	background-color: gray;
 	color: white;
 }
 div.content
@@ -73,6 +73,7 @@ p.context
 	color: black;
 	font-family: helvetica;
 	font-size: 11pt;
+	font-weight: bold;
 }
 .red
 {
