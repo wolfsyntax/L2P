@@ -79,13 +79,13 @@ p.context
 {
 	/*background-color: red;*/
 	color: black;
-	margin-left: 10px;
+	margin-left: 0px;
 	
 }
 .fa
 {
 	margin-top: 0px;
-	height: 110%;
+	height: 100%;
 
 	
 }
@@ -117,6 +117,7 @@ footer
 .news-update
 {
 	overflow: hidden;
+	margin-top: -5px;
 	padding: 0;
 	float: left;
 	display: inline block;
